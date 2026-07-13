@@ -1,0 +1,6 @@
+system/bin/dmstats|dmsetup
+system/lib/libdevmapper.so|libdevmapper.so.1.02
+system/share/doc/containerd/copyright|../../LICENSES/Apache-2.0.txt
+system/share/doc/docker/copyright|../../LICENSES/Apache-2.0.txt
+system/share/doc/resolv-conf/LICENSE|../../LICENSES/Public Domain.txt
+system/share/doc/runc/copyright|../../LICENSES/Apache-2.0.txt

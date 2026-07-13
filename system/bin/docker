@@ -1,0 +1,9 @@
+#!/system/bin/sh
+CLIENT_HOST_FILE="/data/docker/ksu/client_host"
+
+if [ -f "$CLIENT_HOST_FILE" ]; then
+    DOCKER_HOST_VALUE=$(cat "$CLIENT_HOST_FILE" 2>/dev/null)
+    [ -n "$DOCKER_HOST_VALUE" ] && export DOCKER_HOST="$DOCKER_HOST_VALUE"
+fi
+
+exec "$0.real" "$@"

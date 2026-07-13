@@ -1,0 +1,6 @@
+id=native_docker
+name=Docker Standalone for Android
+version=v1.0.0
+versionCode=100
+author=xingguangcuican
+description=Run Docker anywhere. (Need Kernel Support)

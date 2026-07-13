@@ -1,0 +1,2 @@
+#!/system/bin/sh
+exec su -c "PATH=$PATH /data/adb/modules/native_docker/system/bin/dockerd 2>&1"

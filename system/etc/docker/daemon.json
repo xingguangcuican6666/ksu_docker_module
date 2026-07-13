@@ -1,0 +1,14 @@
+{
+  "data-root": "/data/docker/lib/docker",
+  "exec-root": "/data/docker/run/docker",
+  "pidfile": "/data/docker/run/docker.pid",
+  "hosts": [
+    "unix:///dev/docker/docker.sock",
+    "tcp://127.0.0.1:2375"
+  ],
+  "iptables": false,
+  "storage-driver": "overlay2",
+  "log-level": "info",
+  "debug": false,
+  "live-restore": false
+}

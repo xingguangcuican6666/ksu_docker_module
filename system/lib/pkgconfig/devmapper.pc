@@ -1,0 +1,12 @@
+prefix=/data/adb/modules/native_docker/system/
+exec_prefix=${prefix}
+libdir=/data/adb/modules/native_docker/system/lib
+includedir=/data/adb/modules/native_docker/system/include
+
+Name: devmapper
+Description: device-mapper library
+Version: 1.02.215
+Cflags: -I${includedir} 
+Libs: -L${libdir} -ldevmapper
+Requires.private:  
+Libs.private: -lm  -lpthread
